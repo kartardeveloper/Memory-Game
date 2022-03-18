@@ -1,0 +1,66 @@
+[
+  {
+    "imgSrc": "./assets/images/assassin.jpg",
+    "name": "Assassin"
+  },
+  {
+    "imgSrc": "./assets/images/batman.jpg",
+    "name": "Batman"
+  },
+  {
+    "imgSrc": "./assets/images/bumblebee.jpg",
+    "name": "Bumblebee"
+  },
+  {
+    "imgSrc": "./assets/images/captain.jpg",
+    "name": "Captain"
+  },
+  {
+    "imgSrc": "./assets/images/ironman.jpg",
+    "name": "Ironman"
+  },
+  {
+    "imgSrc": "./assets/images/lion.jpg",
+    "name": "Lion"
+  },
+  {
+    "imgSrc": "./assets/images/pikachu.png",
+    "name": "Pikachu"
+  },
+  {
+    "imgSrc": "./assets/images/spiderman.png",
+    "name": "Spiderman"
+  },
+  {
+    "imgSrc": "./assets/images/assassin.jpg",
+    "name": "Assassin"
+  },
+  {
+    "imgSrc": "./assets/images/batman.jpg",
+    "name": "Batman"
+  },
+  {
+    "imgSrc": "./assets/images/bumblebee.jpg",
+    "name": "Bumblebee"
+  },
+  {
+    "imgSrc": "./assets/images/captain.jpg",
+    "name": "Captain"
+  },
+  {
+    "imgSrc": "./assets/images/pikachu.png",
+    "name": "Pikachu"
+  },
+  {
+    "imgSrc": "./assets/images/ironman.jpg",
+    "name": "Ironman"
+  },
+  {
+    "imgSrc": "./assets/images/lion.jpg",
+    "name": "Lion"
+  },
+  {
+    "imgSrc": "./assets/images/spiderman.png",
+    "name": "Spiderman"
+  }
+]

@@ -1,0 +1,119 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  background: linear-gradient(to right, #77a1d3, #79cbca, #e684ae);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+section {
+  height: 100%;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.remaining-lives {
+  font-size: 40px;
+  color: #fff;
+}
+
+.cards-wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  perspective: 800px;
+}
+
+.card {
+  width: 130px;
+  height: 130px;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.3s ease;
+}
+
+.rotate-card {
+    transition: transform 0.3s ease;
+    transform: rotateY(180deg);
+}
+
+.face,
+.back {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.face {
+  object-fit: cover;
+}
+
+.back {
+  background: #fff;
+  backface-visibility: hidden;
+}
+
+.restart-card {
+  padding: 20px 40px;
+  background: #fff;
+  border-radius: 10px;
+  text-align: center;
+  animation: popUp 0.5s ease;
+}
+
+@keyframes popUp {
+  0% {
+    transform: scale(0);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+.restart-card__emoji {
+  font-size: 70px;
+}
+
+.restart-card__title {
+  font-size: 32px;
+  margin: 20px 0 30px;
+}
+
+.restart-btn {
+  background: linear-gradient(to right, #77a1d3, #79cbca, #e684ae);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.restart-btn:hover {
+  color: #fff;
+}
+
+.restart-game {
+  display: none;
+}
