@@ -58,11 +58,11 @@ function addCardsInDocument(mainData) {
               }, 500);
               setTimeout(() => {
                 mainCardElement.remove();
-              }, 800);
+              }, 600);
             });
             setTimeout(() => {
               restart("&#127881;", "Congratulations! You won the game.");
-            }, 400);
+            }, 700);
           }
         } else {
           flippedCards.forEach((flippedElement) => {
@@ -82,11 +82,11 @@ function addCardsInDocument(mainData) {
               }, 500);
               setTimeout(() => {
                 mainCardElement.remove();
-              }, 800);
+              }, 600);
             });
             setTimeout(() => {
               restart("&#128542;", "You loss the game!");
-            }, 400);
+            }, 700);
           }
         }
       }
