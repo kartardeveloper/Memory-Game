@@ -61,8 +61,8 @@ function addCardsInDocument(mainData) {
               }, 800);
             });
             setTimeout(() => {
-              restart("&#127881;", "Congractulations! You won the game.");
-            }, 1000);
+              restart("&#127881;", "Congratulations! You won the game.");
+            }, 400);
           }
         } else {
           flippedCards.forEach((flippedElement) => {
@@ -86,7 +86,7 @@ function addCardsInDocument(mainData) {
             });
             setTimeout(() => {
               restart("&#128542;", "You loss the game!");
-            }, 1000);
+            }, 400);
           }
         }
       }
